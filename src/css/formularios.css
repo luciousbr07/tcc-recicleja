@@ -1,0 +1,91 @@
+
+.cor{
+    background-color: #EBFBF0;
+  }
+  .cornav{
+    background-color: #EBFBF0;
+  }
+ 
+  
+
+  main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+
+  
+
+  .formulario{
+    width: 700px;
+  }
+  h2{
+    color: cornflowerblue;
+    font-size: 20px;
+    font-weight: strong;
+  }
+  form{
+    width: 100%;
+  }
+  .input-single{
+    width: 100%;
+    margin: 30px 0;
+    position: relative;
+  }
+
+  .input-single label{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: rgb(150, 150, 150);
+    cursor: text;
+    transition: 0.5s;
+  }
+
+  .input-single .input{
+    width: 100%;
+    padding: 5px;
+    color: rgb(150, 150, 150);
+    border: 0;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    outline: 0;
+    font-size: 16px;
+  }
+
+  .input-single .input:focus, .input-single .input:valid{
+    border-bottom: 2px solid cornflowerblue;
+  }
+  .input-single .input:focus ~ label, .input-single .input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 14px;
+    color: cornflowerblue;
+  }
+  label.data{
+    transform: translateY(-24px);
+  }
+
+
+  div.info{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-bottom: 10px;
+  }
+
+  div.info textarea{
+    outline: unset;
+    padding: 15px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 20px;
+    height: 100px;
+    background-color: #f0f8ff;
+    color: cornflowerblue;
+  }
+
+  label{
+    color: rgb(150, 150, 150);
+  }
